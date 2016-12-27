@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/cbrt" xmlns:cbrtns="http://www.example.org/cbrt">
+	
+	<xs:element name="cbrt" type="cbrtns:cbrtType" />
+
+	<xs:complexType name="cbrtType">
+		<xs:sequence>
+			<xs:element name="Governor" type="cbrtns:GovernorType" minOccurs="1" maxOccurs="1" />
+			<xs:element name="DeputyGovernor" type="cbrtns:DeputyGovernorType" minOccurs="1" maxOccurs="4" />
+			<xs:element name="MPC_member" type="cbrtns:MPC_memberType" minOccurs="1" maxOccurs="6" />
+			<xs:element name="BoardMember" type="cbrtns:BoardMemberType" minOccurs="1" maxOccurs="7" />
+			<xs:element name="AuditCommunityMember" type="cbrtns:AuditComMemberType" minOccurs="1" maxOccurs="4" />
+			<xs:element name="ExecCommunityMember" type="cbrtns:ExecComMemberType" minOccurs="1" maxOccurs="5" />
+			<xs:element name="Client" type="cbrtns:ClientType" minOccurs="1" maxOccurs="unbounded" />
+			<xs:element name="ShareHolder" type="cbrtns:ShareHolderType" minOccurs="1" maxOccurs="unbounded" />
+			<xs:element name="Branch" type="cbrtns:BranchType" minOccurs="1" maxOccurs="unbounded" />
+			<xs:element name="Employee" minOccurs="1" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:choice>
+						<xs:element name="Contractual" type="cbrtns:ContractualEmployeeType" />
+						<xs:element name="Regular" type="cbrtns:RegularEmployeeType" />
+					</xs:choice>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="PersonType">
+		<xs:sequence>
+			<xs:element name="FirstName" type="xs:string" maxOccurs="10" minOccurs="1" />
+			<xs:element name="MiddleName" type="xs:string" maxOccurs="1" minOccurs="0" />
+			<xs:element name="LastName" type="xs:string" maxOccurs="2" minOccurs="1" />
+		</xs:sequence>
+		<xs:attribute name="SSN" type="cbrtns:SSN_type" use="required" />
+	</xs:complexType>
+
+	<xs:complexType name="EmployeeType">
+		<xs:complexContent>
+			<xs:extension base="cbrtns:PersonType">
+				<xs:sequence>
+					<xs:element name="Title" type="cbrtns:TitleType" />
+					<xs:element name="AssignmentDate" type="xs:date" />
+				</xs:sequence>
+				<xs:attribute name="EmployeeNumber" type="cbrtns:EmployeeNumberType" use="required" />
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GovernorType">
+		<xs:complexContent>
+			<xs:extension base="cbrtns:EmployeeType">
+				<xs:sequence>
+					<xs:element name="Graduate" type="cbrtns:GovernorGraduateType" />
+					<xs:element name="AssignmentCount" type="xs:positiveInteger" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="DeputyGovernorType">
+		<xs:complexContent>
+			<xs:extension base="cbrtns:EmployeeType">
+				<xs:sequence>
+					<xs:element name="Graduate" type="cbrtns:GovernorGraduateType" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="MPC_memberType">
+		<xs:complexContent>
+			<xs:extension base="cbrtns:PersonType">
+				<xs:sequence>
+					<xs:element name="AssignmentDate" type="xs:date" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="BoardMemberType">
+		<xs:complexContent>
+			<xs:extension base="cbrtns:PersonType">
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="AuditComMemberType">
+		<xs:complexContent>
+			<xs:extension base="cbrtns:EmployeeType">
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="ExecComMemberType">
+		<xs:complexContent>
+			<xs:extension base="cbrtns:EmployeeType">
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="ClientType">
+		<xs:choice>
+			<xs:element name="Person" type="cbrtns:PersonType" />
+			<xs:element name="Company" type="cbrtns:CompanyType" />
+		</xs:choice>
+	</xs:complexType>
+
+	<xs:complexType name="ShareHolderType">
+		<xs:choice>
+			<xs:element name="A_type" type="cbrtns:CompanyType" />
+			<xs:element name="B_type" type="cbrtns:CompanyType" />
+			<xs:element name="C_type" type="cbrtns:CompanyType" />
+			<xs:element name="D_type" type="cbrtns:PersonType" />
+		</xs:choice>
+	</xs:complexType>
+
+	<xs:complexType name="BranchType">
+		<xs:all>
+			<xs:element name="branchName" type="xs:string" />
+			<xs:element name="branchLocation" type="xs:string" />
+			<xs:element name="employee" type="cbrtns:EmployeeType" />
+			<xs:element name="telNo" type="cbrtns:TelNoType" />
+			<xs:element name="address" type="xs:string" />
+		</xs:all>
+		<xs:attribute name="branchID" type="xs:string" use="required" />
+	</xs:complexType>
+
+
+	<xs:complexType name="ContractualEmployeeType">
+		<xs:complexContent>
+			<xs:extension base="cbrtns:EmployeeType">
+				<xs:sequence>
+					<xs:element name="ContractExpDate" type="xs:date" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="RegularEmployeeType">
+		<xs:complexContent>
+			<xs:extension base="cbrtns:EmployeeType">
+				<xs:sequence>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="CompanyType">
+		<xs:sequence>
+			<xs:element name="CompanyName" type="xs:string" />
+			<xs:element name="Country" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:simpleType name="GovernorGraduateType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Economics" />
+			<xs:enumeration value="Econometrics" />
+			<xs:enumeration value="Banking" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="TitleType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Mr." />
+			<xs:enumeration value="Mrs." />
+			<xs:enumeration value="Miss." />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="SSN_type">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]{10}" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="EmployeeNumberType">
+		<xs:restriction base="xs:positiveInteger">
+			<xs:pattern value="[0-9]{5}" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="EftCodeType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]{4}" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="TelNoType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="(\+\d{1,2}\s)?\(?\d{4}\)?[\s.-]\d{3}[\s.-]\d{4}" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="CbrtObjectiveType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value=" To achieve and maintain price stability" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:attribute name="eftCode" type="cbrtns:EftCodeType" />
+	<xs:attribute name="telNo" type="cbrtns:TelNoType" />
+	<xs:attribute name="objective" type="cbrtns:CbrtObjectiveType" />
+
+</xs:schema>

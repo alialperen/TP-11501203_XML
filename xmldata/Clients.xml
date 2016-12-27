@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Clients.xsl"?>
+<cbrtns:cbrt xmlns:cbrtns="http://www.example.org/cbrt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/cbrt cbrt.xsd ">
+	<Governor EmployeeNumber="00001" SSN="0000000001">
+		<FirstName>Murat</FirstName>
+		<LastName>Çetinkaya</LastName>
+		<Title>Mr.</Title>
+		<AssignmentDate>2016-04-01</AssignmentDate>
+		<Graduate>Economics</Graduate>
+		<AssignmentCount>1</AssignmentCount>
+	</Governor>
+	<DeputyGovernor EmployeeNumber="00002" SSN="0000000002">
+		<FirstName>Erkan</FirstName>
+		<LastName>Kilimci</LastName>
+		<Title>Mr.</Title>
+		<AssignmentDate>2016-05-16</AssignmentDate>
+		<Graduate>Economics</Graduate>
+	</DeputyGovernor>
+	<MPC_member SSN="0000000003">
+		<FirstName>Abdullah</FirstName>
+		<LastName>Yavaş</LastName>
+		<AssignmentDate>2008-03-11</AssignmentDate>
+	</MPC_member>
+	<BoardMember SSN="0000000004">
+		<FirstName>Ahmet Faruk</FirstName>
+		<LastName>Aysan</LastName>
+	</BoardMember>
+	<AuditCommunityMember EmployeeNumber="00003" SSN="0000000005">
+		<FirstName>Murat </FirstName>
+		<LastName>Uysal</LastName>
+		<Title>Mr.</Title>
+		<AssignmentDate>2016-06-09</AssignmentDate>
+	</AuditCommunityMember>
+	<ExecCommunityMember EmployeeNumber="00004" SSN="0000000006">
+		<FirstName>Emrah</FirstName>
+		<LastName>Şener</LastName>
+		<Title>Mr.</Title>
+		<AssignmentDate>2016-08-02</AssignmentDate>
+	</ExecCommunityMember>
+	<Client>
+		<Company>
+			<CompanyName>Alternatif Bank A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Arap Türk Bankası A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Bank of Tokyo-Mitsubishi UFJ Turkey A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Burgan Bank A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Citibank A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Denizbank A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Deutsche Bank A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Finans Bank A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>HSBC A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>ING Bank A.Ş.</CompanyName>
+			<Country>NE</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Odeabank A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Rabobank A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>T-Bank A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Bank Mellat</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Habib Bank Limited</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Intesa Sanpaolo S.P.A</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>JP Morgan Chase Bank N.A.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Société Générale S.A.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>The Royal Bank of Scotland PLC.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Adabank A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Akbank T.A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Aktif Bank</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Anadolubank A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Fibabanka A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Birleşik Fon Bankası A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Şekerbank T.A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Tekstilbank A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Turkish Bank A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Türk Ekonomi Bankası A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Türkiye Garanti Bankası A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Türkiye İş Bankası A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Yapı ve Kredi Bankası A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Albaraka Türk Katılım Bankası A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Bank Asya A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Kuveyt Türk Katılım Bankası A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Türkiye Finans Katılım Bankası A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>  Türkiye Cumhuriyeti Ziraat Bankası A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Türkiye Halk Bankası A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Türkiye Vakıflar Bankası T.A.O.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>BankPozitif Kredi ve Kalkınma Bankası A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Merrill Lynch Yatırım Bank A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Standard Chartered Yatırım Bankası Türk A.Ş</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Aktif Yatırım Bankası A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Diler Yatırım Bankası A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>GSD Yatırım Bankası A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>İstanbul Takas ve Saklama Bankası A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Nurol Yatırım Bankası A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Taib Yatırım Bank A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Türkiye Sınai Kalkınma Bankası A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>İller Bankası A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Türk Eximbank A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+	<Client>
+		<Company>
+			<CompanyName>Türkiye Kalkınma Bankası A.Ş.</CompanyName>
+			<Country>TR</Country>
+		</Company>
+	</Client>
+
+	<ShareHolder>
+		<A_type>
+			<CompanyName>Treasury</CompanyName>
+			<Country>TR</Country>
+		</A_type>
+	</ShareHolder>
+	<Branch branchID="2">
+		<branchLocation>Ankara</branchLocation>
+		<branchName>Ankara Şubesi</branchName>
+		<telNo>(0312) 507 7301</telNo>
+		<address>Atatürk Bulvarı No:4 06100 Ulus Ankara</address>
+		<employee EmployeeNumber="00006" SSN="0000000009">
+			<FirstName>Yusuf</FirstName>
+			<LastName>Enhoş</LastName>
+			<Title>Mr.</Title>
+			<AssignmentDate>2001-01-01</AssignmentDate>
+		</employee>
+	</Branch>
+	<Employee>
+		<Contractual EmployeeNumber="00006" SSN="0000000009">
+			<FirstName>Ali</FirstName>
+			<LastName>Korkmaz</LastName>
+			<Title>Mr.</Title>
+			<AssignmentDate>2001-01-01</AssignmentDate>
+			<ContractExpDate>2016-12-31</ContractExpDate>
+		</Contractual>
+	</Employee>
+</cbrtns:cbrt>

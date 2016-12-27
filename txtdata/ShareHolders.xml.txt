@@ -1,0 +1,46 @@
+CbrtType [governor=GovernorType [graduate=ECONOMICS, assignmentCount=1, title=MR, assignmentDate=2016-04-01, employeeNumber=1, firstName=[Murat], lastName=[Çetinkaya], ssn=0000000001]
+,
+ deputyGovernor=[DeputyGovernorType [graduate=ECONOMICS, title=MR, assignmentDate=2016-05-16, employeeNumber=2, firstName=[Erkan], lastName=[Kilimci], ssn=0000000002]
+],
+ mpcMember=[MPCMemberType [assignmentDate=2008-03-11, firstName=[Abdullah], lastName=[Yavaş], ssn=0000000003]
+],
+ boardMember=[BoardMemberType [firstName=[Ahmet Faruk], lastName=[Aysan], ssn=0000000004]
+],
+ auditCommunityMember=[AuditComMemberType [title=MR, assignmentDate=2016-06-09, employeeNumber=3, firstName=[Murat ], lastName=[Uysal], ssn=0000000005]
+],
+ execCommunityMember=[ExecComMemberType [title=MR, assignmentDate=2016-08-02, employeeNumber=4, firstName=[Emrah], lastName=[Şener], ssn=0000000006]
+],
+ client=[ClientType [person=PersonType [firstName=[Mehmet], lastName=[Yılmaz], ssn=0000000007]
+, ]
+], 
+shareHolder=[ShareHolderType [aType=CompanyType [companyName=Hazine, country=TR]
+, ]
+, ShareHolderType [bType=CompanyType [companyName=TCMB Mensupları Sosyal Güvenlik ve Yardımlaşma Sandığı Vakfı, country=TR]
+, ]
+, ShareHolderType [bType=CompanyType [companyName=T.C. Ziraat Bankası, country=TR]
+, ]
+, ShareHolderType [bType=CompanyType [companyName=Türkiye Garanti Bankası, country=TR]
+, ]
+, ShareHolderType [bType=CompanyType [companyName=Türkiye İş Bankası, country=TR]
+, ]
+, ShareHolderType [bType=CompanyType [companyName=Türkiye Halk Bankası, country=TR]
+, ]
+, ShareHolderType [bType=CompanyType [companyName=Yapı Kredi Bankası, country=TR]
+, ]
+, ShareHolderType [bType=CompanyType [companyName=Akbank, country=TR]
+, ]
+, ShareHolderType [bType=CompanyType [companyName=Türkiye Ekonomi Bankası (TEB), country=TR]
+, ]
+, ShareHolderType [bType=CompanyType [companyName=T.C. Sosyal Güvenlik Kurumu, country=TR]
+, ]
+, ShareHolderType [bType=CompanyType [companyName=Türkiye Kızılay Derneği, country=TR]
+, ]
+, ShareHolderType [cType=CompanyType [companyName=ING Bank, country=NE]
+, ]
+, ShareHolderType [dType=PersonType [firstName=[Adnan], lastName=[Aktar], ssn=0000000099]
+]
+],
+ branch=[BranchType [branchName=Ankara Şubesi, branchLocation=Ankara, employee=EmployeeType [title=MR, assignmentDate=2001-01-01, employeeNumber=6, firstName=[Yusuf], lastName=[Enhoş], ssn=0000000009]
+, telNo=(0312) 507 7301, address=Atatürk Bulvarı No:4 06100 Ulus Ankara, branchID=2]
+], 
+employee=[tr.gov.cbrt.hwXml.model.CbrtType$Employee@aecb35a]]

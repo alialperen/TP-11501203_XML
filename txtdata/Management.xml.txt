@@ -1,0 +1,35 @@
+CbrtType [governor=GovernorType [graduate=ECONOMICS, assignmentCount=1, title=MR, assignmentDate=2016-04-01, employeeNumber=1, firstName=[Murat], lastName=[Çetinkaya], ssn=0000000001]
+,
+ deputyGovernor=[DeputyGovernorType [graduate=ECONOMICS, title=MR, assignmentDate=2016-05-16, employeeNumber=10, firstName=[Erkan], lastName=[Kilimci], ssn=0000000010]
+, DeputyGovernorType [graduate=ECONOMICS, title=MR, assignmentDate=2016-05-16, employeeNumber=11, firstName=[Erhan], lastName=[Halıcı], ssn=0000000011]
+, DeputyGovernorType [graduate=ECONOMICS, title=MR, assignmentDate=2016-05-16, employeeNumber=12, firstName=[Erman], lastName=[Bademci], ssn=0000000012]
+, DeputyGovernorType [graduate=ECONOMICS, title=MR, assignmentDate=2016-05-16, employeeNumber=13, firstName=[Ertan], lastName=[Fıstıkçı], ssn=0000000013]
+],
+ mpcMember=[MPCMemberType [assignmentDate=2008-03-11, firstName=[Abdullah], lastName=[Yavaş], ssn=0000000073]
+, MPCMemberType [assignmentDate=2008-03-11, firstName=[Abdurrahman], lastName=[Hızlı], ssn=0000000023]
+, MPCMemberType [assignmentDate=2008-03-11, firstName=[Abdurahim], lastName=[Durgun], ssn=0000000033]
+, MPCMemberType [assignmentDate=2008-03-11, firstName=[Abdussamet], lastName=[Canıtez], ssn=0000000043]
+, MPCMemberType [assignmentDate=2008-03-11, firstName=[Abdulkadir], lastName=[Sakin], ssn=0000000053]
+, MPCMemberType [assignmentDate=2008-03-11, firstName=[Abdulhamit], lastName=[Çevik], ssn=0000000063]
+],
+ boardMember=[BoardMemberType [firstName=[Ahmet Faruk], lastName=[Aysan], ssn=0000000004]
+, BoardMemberType [firstName=[Vehbi], lastName=[Çıtak], ssn=0000000014]
+, BoardMemberType [firstName=[Lokman], lastName=[Gündüz], ssn=0000000024]
+, BoardMemberType [firstName=[Necdet], lastName=[Şensoy], ssn=0000000034]
+, BoardMemberType [firstName=[Sabri], lastName=[Orman], ssn=0000000044]
+, BoardMemberType [firstName=[Nurullah], lastName=[Genç], ssn=0000000054]
+],
+ auditCommunityMember=[AuditComMemberType [title=MR, assignmentDate=2016-06-09, employeeNumber=3, firstName=[Murat ], lastName=[Uysal], ssn=0000000005]
+],
+ execCommunityMember=[ExecComMemberType [title=MR, assignmentDate=2016-08-02, employeeNumber=4, firstName=[Emrah], lastName=[Şener], ssn=0000000006]
+],
+ client=[ClientType [person=PersonType [firstName=[Mehmet], lastName=[Yılmaz], ssn=0000000007]
+, ]
+], 
+shareHolder=[ShareHolderType [aType=CompanyType [companyName=Treasury, country=TR]
+, ]
+],
+ branch=[BranchType [branchName=Ankara Şubesi, branchLocation=Ankara, employee=EmployeeType [title=MR, assignmentDate=2001-01-01, employeeNumber=6, firstName=[Yusuf], lastName=[Enhoş], ssn=0000000009]
+, telNo=(0312) 507 7301, address=Atatürk Bulvarı No:4 06100 Ulus Ankara, branchID=2]
+], 
+employee=[tr.gov.cbrt.hwXml.model.CbrtType$Employee@49d904ec]]

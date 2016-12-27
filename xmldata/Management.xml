@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Management.xsl"?>
+<cbrtns:cbrt xmlns:cbrtns="http://www.example.org/cbrt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/cbrt cbrt.xsd ">
+	<Governor EmployeeNumber="00001" SSN="0000000001">
+		<FirstName>Murat</FirstName>
+		<LastName>Çetinkaya</LastName>
+		<Title>Mr.</Title>
+		<AssignmentDate>2016-04-01</AssignmentDate>
+		<Graduate>Economics</Graduate>
+		<AssignmentCount>1</AssignmentCount>
+	</Governor>
+	<DeputyGovernor EmployeeNumber="00010" SSN="0000000010">
+		<FirstName>Erkan</FirstName>
+		<LastName>Kilimci</LastName>
+		<Title>Mr.</Title>
+		<AssignmentDate>2016-05-16</AssignmentDate>
+		<Graduate>Economics</Graduate>
+	</DeputyGovernor>
+	<DeputyGovernor EmployeeNumber="00011" SSN="0000000011">
+		<FirstName>Erhan</FirstName>
+		<LastName>Halıcı</LastName>
+		<Title>Mr.</Title>
+		<AssignmentDate>2016-05-16</AssignmentDate>
+		<Graduate>Economics</Graduate>
+	</DeputyGovernor>
+	<DeputyGovernor EmployeeNumber="00012" SSN="0000000012">
+		<FirstName>Erman</FirstName>
+		<LastName>Bademci</LastName>
+		<Title>Mr.</Title>
+		<AssignmentDate>2016-05-16</AssignmentDate>
+		<Graduate>Economics</Graduate>
+	</DeputyGovernor>
+	<DeputyGovernor EmployeeNumber="00013" SSN="0000000013">
+		<FirstName>Ertan</FirstName>
+		<LastName>Fıstıkçı</LastName>
+		<Title>Mr.</Title>
+		<AssignmentDate>2016-05-16</AssignmentDate>
+		<Graduate>Economics</Graduate>
+	</DeputyGovernor>
+	<MPC_member SSN="0000000073">
+		<FirstName>Abdullah</FirstName>
+		<LastName>Yavaş</LastName>
+		<AssignmentDate>2008-03-11</AssignmentDate>
+	</MPC_member>
+	<MPC_member SSN="0000000023">
+		<FirstName>Abdurrahman</FirstName>
+		<LastName>Hızlı</LastName>
+		<AssignmentDate>2008-03-11</AssignmentDate>
+	</MPC_member>
+	<MPC_member SSN="0000000033">
+		<FirstName>Abdurahim</FirstName>
+		<LastName>Durgun</LastName>
+		<AssignmentDate>2008-03-11</AssignmentDate>
+	</MPC_member>
+	<MPC_member SSN="0000000043">
+		<FirstName>Abdussamet</FirstName>
+		<LastName>Canıtez</LastName>
+		<AssignmentDate>2008-03-11</AssignmentDate>
+	</MPC_member>
+	<MPC_member SSN="0000000053">
+		<FirstName>Abdulkadir</FirstName>
+		<LastName>Sakin</LastName>
+		<AssignmentDate>2008-03-11</AssignmentDate>
+	</MPC_member>
+	<MPC_member SSN="0000000063">
+		<FirstName>Abdulhamit</FirstName>
+		<LastName>Çevik</LastName>
+		<AssignmentDate>2008-03-11</AssignmentDate>
+	</MPC_member>
+	<BoardMember SSN="0000000004">
+		<FirstName>Ahmet Faruk</FirstName>
+		<LastName>Aysan</LastName>
+	</BoardMember>
+	<BoardMember SSN="0000000014">
+		<FirstName>Vehbi</FirstName>
+		<LastName>Çıtak</LastName>
+	</BoardMember>
+	<BoardMember SSN="0000000024">
+		<FirstName>Lokman</FirstName>
+		<LastName>Gündüz</LastName>
+	</BoardMember>
+	<BoardMember SSN="0000000034">
+		<FirstName>Necdet</FirstName>
+		<LastName>Şensoy</LastName>
+	</BoardMember>
+	<BoardMember SSN="0000000044">
+		<FirstName>Sabri</FirstName>
+		<LastName>Orman</LastName>
+	</BoardMember>
+	<BoardMember SSN="0000000054">
+		<FirstName>Nurullah</FirstName>
+		<LastName>Genç</LastName>
+	</BoardMember>
+	<AuditCommunityMember EmployeeNumber="00003" SSN="0000000005">
+		<FirstName>Murat </FirstName>
+		<LastName>Uysal</LastName>
+		<Title>Mr.</Title>
+		<AssignmentDate>2016-06-09</AssignmentDate>
+	</AuditCommunityMember>
+	<ExecCommunityMember EmployeeNumber="00004" SSN="0000000006">
+		<FirstName>Emrah</FirstName>
+		<LastName>Şener</LastName>
+		<Title>Mr.</Title>
+		<AssignmentDate>2016-08-02</AssignmentDate>
+	</ExecCommunityMember>
+	<Client>
+		<Person SSN="0000000007">
+			<FirstName>Mehmet</FirstName>
+			<LastName>Yılmaz</LastName>
+		</Person>
+	</Client>
+	<ShareHolder>
+		<A_type>
+			<CompanyName>Treasury</CompanyName>
+			<Country>TR</Country>
+		</A_type>
+	</ShareHolder>
+	<Branch branchID="2">
+		<branchLocation>Ankara</branchLocation>
+		<branchName>Ankara Şubesi</branchName>
+		<telNo>(0312) 507 7301</telNo>
+		<address>Atatürk Bulvarı No:4 06100 Ulus Ankara</address>
+		<employee EmployeeNumber="00006" SSN="0000000009">
+			<FirstName>Yusuf</FirstName>
+			<LastName>Enhoş</LastName>
+			<Title>Mr.</Title>
+			<AssignmentDate>2001-01-01</AssignmentDate>
+		</employee>
+	</Branch>
+	<Employee>
+		<Contractual EmployeeNumber="00006" SSN="0000000009">
+			<FirstName>Ali</FirstName>
+			<LastName>Korkmaz</LastName>
+			<Title>Mr.</Title>
+			<AssignmentDate>2001-01-01</AssignmentDate>
+			<ContractExpDate>2016-12-31</ContractExpDate>
+		</Contractual>
+	</Employee>
+</cbrtns:cbrt>
