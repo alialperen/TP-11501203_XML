@@ -1,0 +1,34 @@
+-------The Project-------------
+This project is a maven project and requires internet connection. 
+	To get required libraries for the project please right click-Maven-Update Project...
+	Names of required libraries can be found in depencies tags in pom.xml.
+-src
+	-tr.gov.cbrt.hwXml.handler
+		-SimpleErrorHandler.java (for Error Handling)
+	-tr.gov.cbrt.hwXml.model
+		---JaxB beans (POJO)
+	-tr.gov.cbrt.hwXml.parser
+		---Parser Service Interfaces
+	-tr.gov.cbrt.hwXml.parser.Impl
+		---Implements of Parser Service Interfaces
+	-tr.gov.cbrt.hwXml.query
+		---Query Service Interfaces
+	-tr.gov.cbrt.hwXml.query.Impl
+		---Implements of Query Service Interfaces	
+	-tr.gov.cbrt.hwXml.validator
+		---Validator Service Interfaces
+	-tr.gov.cbrt.hwXml.validator.Impl
+		---Implements of Validator Service Interfaces	
+	-tr.gov.cbrt.hwXml.test
+		---Junit tests of the services 
+		- AllTests.java (Runs all tests)
+		- To test all 5 xml files ; indice of ValidatorService.XML_FILES[4] array can be changed 0 to 4.
+		- To test xpath queries, one of them should be commented.
+-bin
+		---class files
+-testxmldata
+		---xml files to test runnig times.
+-txtdata
+		---outputs of parsed xml files
+-xmldata
+		---xsd,xsl and xml files and a css file which is used by xsl 
